@@ -9,9 +9,5 @@ xcuserdata/
 
 Carthage
 
-3rdparty/boost/boost.framework
-3rdparty/tbb_libs/libtbb.a
-3rdparty/tbb_libs/libtbbmalloc.a
-
+3rdparty/libs
 Osrm.framework.zip
-OsrmDirections.framework.zip

@@ -141,6 +141,27 @@
 			remoteGlobalIDString = E07BFCB6225763FA0040DDD8;
 			remoteInfo = boost;
 		};
+		E0FE36D322593B1400C75B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E2911B20E561D000E1FC1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07BFCB6225763FA0040DDD8;
+			remoteInfo = boost;
+		};
+		E0FE36D522593C4400C75B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E2911B20E561D000E1FC1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E07BFCB6225763FA0040DDD8;
+			remoteInfo = boost;
+		};
+		E0FE36D722593C9200C75B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06E2911B20E561D000E1FC1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06E2927A20E5678F00E1FC1C;
+			remoteInfo = microtar;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -611,6 +632,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E0FE36D422593B1400C75B1B /* PBXTargetDependency */,
 			);
 			name = engine;
 			productName = util;
@@ -664,6 +686,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E0FE36D822593C9200C75B1B /* PBXTargetDependency */,
 				E07BFCBD225766620040DDD8 /* PBXTargetDependency */,
 				E07BFCBF225766640040DDD8 /* PBXTargetDependency */,
 				E07BFCC1225766660040DDD8 /* PBXTargetDependency */,
@@ -698,8 +721,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				E07BFCC5225771840040DDD8 /* PBXTargetDependency */,
+				E0FE36D622593C4400C75B1B /* PBXTargetDependency */,
 				0648F78E211C800300C728E5 /* PBXTargetDependency */,
+				E07BFCC5225771840040DDD8 /* PBXTargetDependency */,
 			);
 			name = util;
 			productName = util;
@@ -938,6 +962,21 @@
 			isa = PBXTargetDependency;
 			target = E07BFCB6225763FA0040DDD8 /* boost */;
 			targetProxy = E07BFCC6225865530040DDD8 /* PBXContainerItemProxy */;
+		};
+		E0FE36D422593B1400C75B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07BFCB6225763FA0040DDD8 /* boost */;
+			targetProxy = E0FE36D322593B1400C75B1B /* PBXContainerItemProxy */;
+		};
+		E0FE36D622593C4400C75B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E07BFCB6225763FA0040DDD8 /* boost */;
+			targetProxy = E0FE36D522593C4400C75B1B /* PBXContainerItemProxy */;
+		};
+		E0FE36D822593C9200C75B1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06E2927A20E5678F00E1FC1C /* microtar */;
+			targetProxy = E0FE36D722593C9200C75B1B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

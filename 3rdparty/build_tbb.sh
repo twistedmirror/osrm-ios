@@ -1,3 +1,5 @@
+set -e
+
 cd tbb
 
 make target="ios" arch="arm64" extra_inc="big_iron.inc" 2> /dev/null

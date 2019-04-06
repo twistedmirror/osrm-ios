@@ -1,3 +1,5 @@
+set -e
+
 BOOST_VERSION="1.65.1"
 BOOST_LIBS="date_time chrono filesystem iostreams program_options regex system thread"
 
@@ -13,6 +15,7 @@ else
 	cd ..
 
 	mkdir -p libs
+	rm -rf libs/boost.framework
 	ln -s ../Apple-Boost-BuildScript/build/boost/1.65.1/ios/release/framework/boost.framework libs/boost.framework
 fi
 
